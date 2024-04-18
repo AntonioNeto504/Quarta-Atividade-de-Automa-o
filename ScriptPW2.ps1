@@ -1,4 +1,4 @@
-$nomeDoServico = "NomeDoServicoAqui"
+$nomeDoServico = "Cadastro de empresa"
 $service = Get-Service -Name $nomeDoServico
 
 if ($service.Status -ne "Running") {
